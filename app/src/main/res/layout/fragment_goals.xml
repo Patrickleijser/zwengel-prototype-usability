@@ -4,10 +4,45 @@
     android:layout_height="match_parent"
     tools:context="com.example.patrickleijser.zwengelprototypeusability.GoalsFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <LinearLayout
+        android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Goals test" />
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_margin="10dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Beter opletten in de klas"
+            android:id="@+id/textView2"
+            android:textStyle="bold"
+            android:textSize="23dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mijn doel voor de komende weken is beter opletten in de klas, ik ga dit behalen door..."
+            android:id="@+id/textView3" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Einddatum: maandag 29 februari 2016"
+            android:id="@+id/textView4"
+            android:textStyle="bold" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bekijken"
+            android:id="@+id/button1"
+            android:onClick="bekijkenClick" />
+    </LinearLayout>
 
 </FrameLayout>

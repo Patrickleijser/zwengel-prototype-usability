@@ -4,10 +4,153 @@
     android:layout_height="match_parent"
     tools:context="com.example.patrickleijser.zwengelprototypeusability.HighscoreFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Persoonlijke highscores"
+                android:textStyle="bold"
+                android:textSize="25dp" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:stretchColumns="*">
+
+                <TableRow
+                    android:layout_weight="1"
+                    android:gravity="center">
+                    <TextView android:text="1"
+                        android:textSize="20dp" />
+                    <TextView android:text="Mijn eerste doel"
+                        android:textSize="20dp" />
+                    <TextView android:text="650"
+                        android:textSize="20dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_weight="1"
+                    android:gravity="center">
+                    <TextView android:text="2"
+                        android:textSize="20dp" />
+                    <TextView android:text="Mijn eerste doel"
+                        android:textSize="20dp" />
+                    <TextView android:text="650"
+                        android:textSize="20dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_weight="1"
+                    android:gravity="center">
+                    <TextView android:text="3"
+                        android:textSize="20dp" />
+                    <TextView android:text="Mijn eerste doel"
+                        android:textSize="20dp" />
+                    <TextView android:text="650"
+                        android:textSize="20dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_weight="1"
+                    android:gravity="center">
+                    <TextView android:text="4"
+                        android:textSize="20dp" />
+                    <TextView android:text="Mijn eerste doel"
+                        android:textSize="20dp" />
+                    <TextView android:text="650"
+                        android:textSize="20dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_weight="1"
+                    android:gravity="center">
+                    <TextView android:text="5"
+                        android:textSize="20dp" />
+                    <TextView android:text="Mijn eerste doel"
+                        android:textSize="20dp" />
+                    <TextView android:text="650"
+                        android:textSize="20dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_weight="1"
+                    android:gravity="center">
+                    <TextView android:text="6"
+                        android:textSize="20dp" />
+                    <TextView android:text="Mijn eerste doel"
+                        android:textSize="20dp" />
+                    <TextView android:text="650"
+                        android:textSize="20dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_weight="1"
+                    android:gravity="center">
+                    <TextView android:text="7"
+                        android:textSize="20dp" />
+                    <TextView android:text="Mijn eerste doel"
+                        android:textSize="20dp" />
+                    <TextView android:text="650"
+                        android:textSize="20dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_weight="1"
+                    android:gravity="center">
+                    <TextView android:text="8"
+                        android:textSize="20dp" />
+                    <TextView android:text="Mijn eerste doel"
+                        android:textSize="20dp" />
+                    <TextView android:text="650"
+                        android:textSize="20dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_weight="1"
+                    android:gravity="center">
+                    <TextView android:text="9"
+                        android:textSize="20dp" />
+                    <TextView android:text="Mijn eerste doel"
+                        android:textSize="20dp" />
+                    <TextView android:text="650"
+                        android:textSize="20dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_weight="1"
+                    android:gravity="center">
+                    <TextView android:text="10"
+                        android:textSize="20dp" />
+                    <TextView android:text="Mijn eerste doel"
+                        android:textSize="20dp" />
+                    <TextView android:text="650"
+                        android:textSize="20dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_weight="1"
+                    android:gravity="center">
+                    <TextView android:text="11"
+                        android:textSize="20dp" />
+                    <TextView android:text="Mijn eerste doel"
+                        android:textSize="20dp" />
+                    <TextView android:text="650"
+                        android:textSize="20dp" />
+                </TableRow>
+
+            </TableLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
 
 </FrameLayout>
