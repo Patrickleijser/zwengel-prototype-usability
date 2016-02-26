@@ -3,19 +3,19 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_camera"
+            android:id="@+id/goals"
             android:icon="@drawable/ic_menu_camera"
             android:title="Doelen" />
         <item
-            android:id="@+id/nav_gallery"
+            android:id="@+id/highscore"
             android:icon="@drawable/ic_menu_gallery"
             android:title="Score" />
         <item
-            android:id="@+id/nav_slideshow"
+            android:id="@+id/shop"
             android:icon="@drawable/ic_menu_slideshow"
             android:title="Winkel" />
         <item
-            android:id="@+id/nav_manage"
+            android:id="@+id/settings"
             android:icon="@drawable/ic_menu_manage"
             android:title="Instellingen" />
     </group>
