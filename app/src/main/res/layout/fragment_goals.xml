@@ -41,8 +41,36 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Bekijken"
-            android:id="@+id/button1"
-            android:onClick="bekijkenClick" />
+            android:id="@+id/button1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Beter opletten in de klas"
+            android:id="@+id/textView5346567"
+            android:textStyle="bold"
+            android:textSize="23dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mijn doel voor de komende weken is beter opletten in de klas, ik ga dit behalen door..."
+            android:id="@+id/textView345" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Einddatum: maandag 29 februari 2016"
+            android:id="@+id/textView5"
+            android:textStyle="bold" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bekijken"
+            android:id="@+id/button2" />
     </LinearLayout>
 
 </FrameLayout>
